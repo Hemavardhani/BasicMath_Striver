@@ -1,0 +1,9 @@
+//count digits 
+class Solution {
+    public int countDigit(int n) {
+        int c=(int) (Math.log10(n)+1);  //suppose n=412 then log10(412) =2.657.. => add +1 make it 3 then digits 412 is 3
+
+        return c;
+
+    }
+}
